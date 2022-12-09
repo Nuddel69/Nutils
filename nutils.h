@@ -5,6 +5,7 @@
 class Function
 {
 public:
+
     /*
      * Constructor to initialize the function
      */
@@ -16,6 +17,7 @@ public:
     double riemann(double a, double b, int n);
 
 private:
+
     /*
      * Pointer to the user-given function
      */

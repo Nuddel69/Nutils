@@ -7,16 +7,14 @@ double fx(double x)
   return pow(x, 2);
 }
 
-// Main function
 int main()
 {
     // Variables for the lower and upper bounds of the interval
     double a, b;
     
-    // Variable for the number of subintervals to use in the calculation
+    // Variable for the number of subintervals
     int n;
     
-    // Prompt the user for the interval bounds and number of subintervals
     std::cout << "Enter the lower bound of the interval: ";
     std::cin >> a;
     std::cout << "Enter the upper bound of the interval: ";
@@ -32,3 +30,4 @@ int main()
 
     return 0;
 }
+
